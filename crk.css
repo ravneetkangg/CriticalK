@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 80px;
+    background-color: rgb(228, 228, 227);
+}
+
+
+/* navbar start-------------------------------------------------- */
+
+nav {
+    top: 0;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(188, 251, 169);
+    width: 100%;
+    padding: 15px 15px;
+    position: fixed;
+}
+
+p.navv {
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-left: 15px;
+}
+
+li {
+    display: inline;
+    font-size: x-large;
+    padding: 20px;
+}
+
+li:hover {
+    color: white;
+    background-color: rgb(20, 91, 20);
+}
+
+img.navv {
+    border-radius: 50%;
+    background-color: rgb(205, 205, 78);
+    display: inline;
+}
+
+img.navv:hover {
+    background-color: yellow;
+}
+
+input.navv {
+    margin-right: 15px;
+    width: 250px;
+    height: 35px;
+    padding-left: 1vw;
+    border-width: 2px;
+    border-color: rgb(180, 176, 176);
+    border-radius: 5%;
+}
+
+
+/* main body start ----------------------------------------------*/
+
+main {
+    background-color: aqua;
+}
+
+div.mainbody {
+    /* height: 350px; */
+    width: 100%;
+    background-color: rgb(228, 228, 227);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 25px 25px;
+}
+
+span.moviecard {
+    height: 240px;
+    width: 560px;
+    background-color: rgb(202, 246, 189);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px green;
+    margin-top: 10px;
+}
+
+
+/* span.moviecard:nth-child(2) {
+    margin-top: 20px;
+} */
+
+span.moviecard img {
+    height: 240px;
+    width: 240px;
+    box-shadow: 0px 0px 10px black;
+}
+
+span.movieinfo {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+span.movieinfo h2 {
+    font-weight: 500;
+    font-family: monospace;
+    text-transform: capitalize;
+}
+
+div.plot {
+    width: 100%;
+    height: 140px;
+    overflow: auto;
+    padding: 10px;
+    font-weight: 100;
+}
+
+
+/* span.movieinfo h4 {
+    padding: 10px;
+    font-weight: 500;
+} */
+
+div.ratings {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+div.ratings img {
+    height: 40px;
+    width: 40px;
+    box-shadow: none;
+}
+
+div.rt {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+}
